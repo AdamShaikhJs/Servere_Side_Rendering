@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import MediSearch from "./MediSearch";
 
 export default function App() {
   const [countData, setCountData] = useState();
@@ -21,8 +22,10 @@ export default function App() {
 
   return (
     <div>
-      <h1>Adam shaikh</h1>
-      <p>S....</p>
+      <h1>Server side Event</h1>
+      <h4>Adam shaikh</h4>
+      <p>Web Socket examples</p>
+      {/* <MediSearch /> */}
     </div>
   );
 }
